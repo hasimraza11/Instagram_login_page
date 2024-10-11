@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, "roboto";
+    /* background-color: #000; */
+    color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #252525; 
+    /* padding: 40px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    /* max-width: 350px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.para-1{
+    font-size: 13px;
+    color: #797979;
+    margin-bottom: 30px;
+}
+.logo {
+    
+    padding-bottom: 30px;
+     /* margin-left: 110px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+    
+}
+.logo_image{
+    width: 100px;;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #333;
+    /* border: none; */
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: transparent;
+    border: 0.01rem solid #5c5a5a;
+    width: 90%;
+    height: 50px;
+    
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #adabab;
+}
+
+.login-btn {
+    background-color: #0170f8;
+    color: #fff;
+    border: none;
+    padding: 12px; 
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.login-btn:hover {
+    background-color: #0085e6;
+}
+
+.forgot-password {
+    /* color: #0095f6; */
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.meta-logo{
+   width: 100%;
+   
+}
+.meta-logo img{
+  width: 70px;
+  padding-top: 10px;
+  
+}
